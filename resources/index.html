@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>NeutralinoJs sample app</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="neutralinoapp">
+     
+      <video width='1000' autoplay muted loop id="myVideo">
+        <source src="beach.mp4" type="video/mp4">
+      
+      </video>
+      <div class="bnd">
+  
+        <form name="videoDetails" id="videoDetails">
+    
+         <input id="videoID" class='hd' name='id' placeholder="Video ID" type='hidden'/>
+      <input type="hidden" accept='video/*' name="videoFile" class='hd'>
+          <select name="platform">
+            <option value="">--Choose a video type--</option>
+            <option>YouTube</option>
+            <option>Vimeo</option>
+            <option>Local File</option>
+          </select>
+    
+          <input type="submit" value="submit">
+         
+        </form>
+  
+       
+      </div>
+      <div class="splashModal">
+        <img src="vdroll.png" alt="">
+        <h1>VIDROL</h1>
+        <p>made in Lagos by www.woleekanola.online</p>
+        <p>Click here to continue</p>
+  
+      </div>
+       <p class="crdt">made in Lagos by www.woleekanola.online</p>
+     
+    </div>
+    <!-- Neutralino.js client. This file is gitignored, 
+        because `neu update` typically downloads it.
+        Avoid copy-pasting it. 
+        -->
+        <script src="js/vidrol.js"></script>
+    <script src="js/neutralino.js"></script>
+    <!-- Your app's source files -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

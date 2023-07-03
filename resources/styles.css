@@ -1,0 +1,88 @@
+/* styles.css */
+
+/* Add styles here to customize the appearance of your app */
+
+.splashModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: white;
+    width: 100%;
+    height: 100%;
+    z-index: 1000000000000000000000000000000;
+    text-align: center;
+    color: #635e5e;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+    
+  }
+  .crdt{
+    position: fixed;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    /* z-index: 88999999999999999999999; */
+  }
+  .splashModal img{
+    width: 30%;
+    margin-top: 16%;
+   
+  
+  }
+  .splashModal p{
+    margin-top: 5px !important;
+  }
+  
+  
+  .splashModal h1{
+  
+    font-size: 40px;
+    line-height: 0%;
+   
+    /* margin-top: -10px; */
+    color: #510f0f;
+  
+  }
+  .bnd{
+      width:44%;
+      min-height: 100px;
+      /* padding: 30px; */
+      background-color: rgba(61, 4, 4, 0.754);
+      padding-top: 40px;
+      padding-bottom: 40px;
+     
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      z-index: 999999999999999999999;
+  
+  }
+  
+  input, select {
+      color:#030303;
+      width: 75%;
+      margin: auto;
+      padding: 1.5rem;
+      border: none;
+      border-bottom: 1.5px solid #ccc;
+      margin-bottom: 1rem;
+      border-radius: 0.3rem;
+      font-family: 'Roboto', sans-serif;
+      color: #615a5a;
+      font-size: 1.1rem;
+      font-weight: 500;
+    outline:none;
+    display: block;
+  
+  }
+  .hd{
+      width: 60% !important;
+  }
+  #myVideo {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%; 
+      min-height: 100%;
+    }
